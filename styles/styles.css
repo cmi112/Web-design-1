@@ -1,0 +1,101 @@
+/* body {
+  background-color: rgb(17, 17, 114);
+} */
+*,html {
+  /* font-size: 62.65%; */
+  box-sizing: border-box;
+}
+header {
+  background-color: white;
+  height: 250px;
+  font-size: 2rem;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blue;
+}
+.logo {
+  color:rgb(17, 17, 114)
+}
+.active {
+  color: blue;
+}
+li {
+  list-style: none;
+}
+
+
+main {
+  display: flex;
+  width: 100%;
+  height: 590px;
+  justify-content: space-between;
+  background-color: rgb(17, 17, 114);
+  color: white;
+ 
+}
+.cards {
+  display: flex;
+  background-color: rgb(17, 17, 114);
+}
+.card {
+  width: 30%;
+  padding: 20px;
+}
+
+img {
+  background-color: white;
+}
+.btn-yellow{
+ background-color: yellow;
+ padding: 20px;
+ font-weight: bold;
+}
+.flex {
+  display: flex;
+  margin: 50px;
+ /* display: grid;
+ grid-template-columns: 1fr 1fr; */
+ 
+}
+section img{
+  width: 60%;
+}
+.call-action{
+  background-color:rgb(17, 17, 114);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 280px;
+  
+}
+.text-div {
+  width: 40%;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  align-items:baseline;
+  justify-content: space-around;
+}
+.footer>ul{
+  display: flex;
+  flex-direction: column;
+}
+.footer-last {
+  text-align: center;
+}
