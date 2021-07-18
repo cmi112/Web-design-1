@@ -112,6 +112,7 @@ footer {
   width: 100%;
   align-items:baseline;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .footer>ul{
   display: flex;
@@ -139,6 +140,9 @@ footer {
     margin-top: 500px;
     display: flex;
     flex-direction: column;
+  }
+  .call-action{
+    height: 400px;
   }
 
 }
