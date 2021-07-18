@@ -44,6 +44,7 @@ main {
   justify-content: space-between;
   background-color: rgb(17, 17, 114);
   color: white;
+  padding: 40px;
  
 }
 .cards {
@@ -81,6 +82,17 @@ section img{
 }
 .text-div {
   width: 40%;
+}
+.middle-container{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.sub-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
 }
 footer {
   margin-bottom: 70px;
